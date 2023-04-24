@@ -32,7 +32,7 @@ def read_values():
         
 def read_value(key):
     try:
-        print('{}:\t{}'.format(key,_global_dict[key]))
+        print('{}\t{}'.format(key,_global_dict[key]))
     except KeyError:
         print('读取' + key + '失败\r\n')
     
